@@ -7,6 +7,7 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Welcome</div>
                 	TES DONG
+                    Terjadi Konflik..
                 <div class="panel-body">
                 </div>
             </div>
