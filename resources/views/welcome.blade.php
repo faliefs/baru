@@ -7,6 +7,8 @@
             <div class="panel panel-default">
                 <div class="panel-heading">Welcome</div>
                 	Selamat Makan
+                	TES DONG
+                    Terjadi Konflik..
                 <div class="panel-body">
                 </div>
             </div>
