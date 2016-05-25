@@ -8,7 +8,6 @@
                 <div class="panel-heading">Welcome</div>
 
                 <div class="panel-body">
-                    Selamat Datang !!.
                 </div>
             </div>
         </div>
