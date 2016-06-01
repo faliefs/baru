@@ -6,6 +6,7 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class RegistrationTest extends TestCase
 {
+    use DatabaseTransactions;
     /**
      * A basic test example.
      *
@@ -14,11 +15,11 @@ class RegistrationTest extends TestCase
     public function testExample()
     {
         $this->visit('/register')
-	         ->type('Agung Tri Wibowo', 'name')
- 	 	     ->type('agung@tes.com', 'email')
-	         ->type('agung123','password')
-	         ->type('agungtri123','password_confirmation')
+	         ->type('pedro', 'name')
+ 	 	     ->type('pedro@tes.com', 'email')
+	         ->type('pedro123','password')
+	         ->type('pedro123','password_confirmation')
 	         ->press('Register')
-	         ->seePageIs('/register');
+	         ->seePageIs('/');
     }
 }
