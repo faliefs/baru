@@ -17,6 +17,8 @@ class LoginTest extends TestCase
              ->type('agungtri91@gmail.com', 'email')
 	         ->type('agungtri','password')
              ->check('remember')
+             ->type('agung@tes.com', 'email')
+	         ->type('agung123','password')
 	         ->press('Login')
 	         ->seePageIs('/');
     }

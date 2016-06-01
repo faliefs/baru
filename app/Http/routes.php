@@ -13,6 +13,5 @@
 Route::get('/', function () {
 	return view('welcome');
 });
-// Route::get('/', 'CrudController@index');
 
 Route::auth();
