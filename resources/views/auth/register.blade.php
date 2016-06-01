@@ -65,7 +65,13 @@
                                 @endif
                             </div>
                         </div>
+                        <div class="form-group{{ $errors->has('gambar') ? ' has-error' : '' }}">
+                            <label class="col-md-4 control-label">Upload Foto</label>
 
+                            <div class="col-md-6">
+                                <input type="file" class="form-control" name="gambar">
+                            </div>
+                        </div>
                         <div class="form-group">
                             <div class="col-md-6 col-md-offset-4">
                                 <button type="submit" class="btn btn-primary">
