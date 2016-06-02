@@ -15,10 +15,10 @@ class RegistrationTest extends TestCase
     public function testExample()
     {
         $this->visit('/register')
-	         ->type('pedro', 'name')
- 	 	     ->type('pedro@tes.com', 'email')
-	         ->type('pedro123','password')
-	         ->type('pedro123','password_confirmation')
+	         ->type('farhan', 'name')
+ 	 	     ->type('farhan@tes.com', 'email')
+	         ->type('farhan123','password')
+	         ->type('farhan123','password_confirmation')
 	         ->press('Register')
 	         ->seePageIs('/');
     }
