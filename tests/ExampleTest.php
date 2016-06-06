@@ -6,7 +6,6 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ExampleTest extends TestCase
 {
-    use WithoutMiddleware;
     /**
      * A basic functional test example.
      *
